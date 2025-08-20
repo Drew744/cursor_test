@@ -1,0 +1,715 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - navigation:
+    - list:
+      - listitem:
+        - link "Тут новые видеокарты!":
+          - /url: https://catalog.onliner.by/videocard?video_gpugen%5B0%5D=geforcertx50&video_gpugen%5B1%5D=radeonrx9000&video_gpugen%5Boperation%5D=union&utm_source=banner&utm_medium=babl&utm_campaign=videocard_new
+          - text: Тут новые видеокарты!
+          - img
+        - link "Каталог":
+          - /url: https://catalog.onliner.by
+      - listitem:
+        - link "‹ Новости":
+          - /url: https://www.onliner.by
+      - listitem:
+        - link "‹ Автобарахолка":
+          - /url: https://ab.onliner.by
+      - listitem:
+        - link "‹ Дома и квартиры":
+          - /url: https://r.onliner.by/pk
+      - listitem:
+        - link "Услуги":
+          - /url: https://s.onliner.by/tasks
+      - listitem:
+        - link "Барахолка":
+          - /url: https://baraholka.onliner.by
+      - listitem:
+        - link "Форум":
+          - /url: https://forum.onliner.by
+    - link "Onlíner Клевер":
+      - /url: https://clever.onliner.by/?utm_source=onliner&utm_medium=navigation&utm_campaign=clever
+    - list:
+      - listitem:
+        - link "$ 2,9773":
+          - /url: https://kurs.onliner.by
+      - listitem:
+        - link "Погода в Минске +15":
+          - /url: https://pogoda.onliner.by
+          - text: "+15"
+    - text: 18+
+  - link "Onlíner":
+    - /url: https://www.onliner.by
+    - img "Onlíner"
+  - textbox "Поиск в Каталоге. Например, \"сварочный аппарат\""
+  - text: Вход
+  - link "Корзина":
+    - /url: https://cart.onliner.by
+- link "Onlíner Prime":
+  - /url: /cat/prime
+- link "Электроника":
+  - /url: /cat/electronics
+- link "Компьютеры и сети":
+  - /url: /cat/computers
+- link "Бытовая техника":
+  - /url: /cat/appliance
+- link "На каждый день":
+  - /url: /cat/fmcg
+- link "Стройка и ремонт":
+  - /url: /cat/building
+- link "Дом и сад":
+  - /url: /cat/household
+- link "Авто и мото":
+  - /url: /cat/auto
+- link "Красота и спорт":
+  - /url: /cat/lifestyle
+- link "Детям и мамам":
+  - /url: /cat/kids
+- link "Скидки к учёбе! Скидки к учёбе!":
+  - /url: https://catalog.onliner.by/promo/back-to-school
+  - img "Скидки к учёбе!"
+  - text: Скидки к учёбе!
+- link "Все скидки тут! Все скидки тут!":
+  - /url: https://catalog.onliner.by/superprice
+  - img "Все скидки тут!"
+  - text: Все скидки тут!
+- link "Зроблена ў Беларусі Зроблена ў Беларусі":
+  - /url: https://catalog.onliner.by/promo/sdelano-v-belarusi
+  - img "Зроблена ў Беларусі"
+  - text: Зроблена ў Беларусі
+- link "Apple Apple":
+  - /url: https://catalog.onliner.by/promo/apple
+  - img "Apple"
+  - text: Apple
+- link "Идеи сборок ПК от Onliner Идеи сборок ПК от Onliner":
+  - /url: https://tech.onliner.by/2025/06/30/sborki-pk
+  - img "Идеи сборок ПК от Onliner"
+  - text: Идеи сборок ПК от Onliner
+- iframe
+- list:
+  - listitem:
+    - link "Каталог Onlíner":
+      - /url: https://catalog.onliner.by
+  - listitem:
+    - text: ∕
+    - link "Бытовая техника":
+      - /url: https://catalog.onliner.by/cat/appliance
+  - listitem:
+    - text: ∕
+    - link "Крупногабаритная техника":
+      - /url: https://catalog.onliner.by/cat/appliance/krupnogabaritnaya-tekhnika
+- heading "Стиральные машины" [level=1]
+- text: Каталог Объявления
+- img
+- link "Топ лучших стиральных машин ›":
+  - /url: https://tech.onliner.by/2025/02/25/rejting-stiralnyx-mashin?utm_source=guide_button&utm_medium=rejtingstiralnyx
+- text: 168 675 просмотров Minipay Оплата товаров мини-платежами раз в месяц Суперцена Доставка в Минск Доставка в Минск? Да Нет, другой
+- list:
+  - listitem: С доставкой по Беларуси
+- list:
+  - listitem: Onlíner рекомендует
+- text: Производитель
+- list:
+  - listitem: LG
+  - listitem: Samsung
+  - listitem: BEKO
+  - listitem: Haier
+  - listitem: Bosch
+  - listitem: ATLANT
+  - listitem: Electrolux
+  - listitem: Indesit
+  - listitem: Candy
+  - listitem: Hyundai
+- text: Все 94 варианта Цена
+- textbox "от"
+- textbox "до"
+- text: Магазины
+- list:
+  - listitem: Newton
+  - listitem: AMD
+  - listitem: 5 элемент
+  - listitem: CyberMarket
+  - listitem: STOX
+- text: Все 72 варианта
+- list:
+  - listitem: В наличии на складе
+- text: Тип
+- list:
+  - listitem: стиральная машинка
+  - listitem: стиральная машинка с вертикальной загрузкой
+  - listitem: стирально-сушильная машина
+  - listitem: сушильная машина
+  - listitem: сушильный шкаф
+- text: Все 9 вариантов Загрузка белья, кг
+- list:
+  - listitem: 2-4 кг (малая)
+  - listitem: 5 кг (уменьшенная)
+  - listitem: 6-8 кг (средняя)
+  - listitem: 9 кг и более (большая)
+- textbox "1"
+- textbox "18"
+- text: Макс. скорость отжима
+- list:
+  - listitem: 800 об/мин и менее
+  - listitem: 1000 об/мин
+  - listitem: 1200 об/мин
+  - listitem: 1400 об/мин
+  - listitem: более 1400 об/мин
+- combobox
+- combobox
+- text: Глубина, см
+- textbox "29"
+- textbox "87.5"
+- text: Инверторный двигатель Да Нет Прямой привод Да Нет Обработка паром Да Нет Цвет
+- list:
+  - listitem: белый
+  - listitem: черный
+  - listitem: серебристый
+  - listitem: антрацит
+  - listitem: бежевый
+- text: Все 25 вариантов Цвет люка
+- list:
+  - listitem: белый
+  - listitem: хром
+  - listitem: черный
+  - listitem: серебристый
+  - listitem: антрацит
+- text: Все 14 вариантов Показать остальные фильтры Найден 4001 товар Сбросить фильтр Сначала популярные
+- combobox:
+  - option "Популярные" [selected]
+  - option "Дешевые"
+  - option "Дорогие"
+  - option "Новые"
+  - option "С отзывами"
+- link "Стиральная машина Samsung WW70AG6S23ANLP":
+  - /url: https://catalog.onliner.by/washingmachine/samsung/ww70ag6s23anlp
+  - img "Стиральная машина Samsung WW70AG6S23ANLP"
+- text: Реклама
+- link "от 1825,00 р.":
+  - /url: https://catalog.onliner.by/washingmachine/samsung/ww70ag6s23anlp/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 66,99 р./мес. По Халве до 2 мес.
+- link "19 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/samsung/ww70ag6s23anlp/prices
+- link "Стиральная машина Samsung WW70AG6S23ANLP":
+  - /url: https://catalog.onliner.by/washingmachine/samsung/ww70ag6s23anlp
+- link "5 (3)":
+  - /url: https://catalog.onliner.by/washingmachine/samsung/ww70ag6s23anlp/reviews
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=ww70ag6s23anlp
+- text: отдельностоящая стиральная машинка с паром загрузка до 7 кг отжим 1200 об/мин глубина 45 см (с люком 52.5 см) энергопотребление A+++ 22 программы AI Control (Samsung)/AI EcoBubble (Samsung)
+- link "Стирально-сушильная машина LG F2V5GG2S":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2v5gg2s
+  - img "Стирально-сушильная машина LG F2V5GG2S"
+- text: Реклама
+- link "от 2394,00 р.":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2v5gg2s/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 87,88 р./мес. По Халве до 4 мес.
+- link "23 предложения":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2v5gg2s/prices
+- link "Стирально-сушильная машина LG F2V5GG2S":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2v5gg2s
+- link "4,5 (4)":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2v5gg2s/reviews
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=f2v5gg2s
+- text: отдельностоящая стирально-сушильная машина с паром загрузка до 8.5 кг отжим 1200 об/мин глубина 47.5 см (с люком 49 см) энергопотребление A прямой привод 14 программ AI DD (LG)/6 Motion (LG)
+- link:
+  - /url: https://ads.adfox.ru/260941/clickURL?ad-session-id=2110731755722231578&adfox-version=1&hash=48e57b078110b489&p1=dfjur&p2=fzvf&p5=bhfxpq&pr=cotmhwg&puid4=washingmachine&rand=jlwbnaf&rqs=4U3C4LIXjmr6MaZof1UkB2IwQz5NmWuO&sj=IfvCw5tHuMck0z11kUwj3WUjd7gs4cXJkPTfdCmej-KJrG3X7HoKaCJNVlo1mQ%3D%3D&ybv=0.1301598&ylv=0.1301598&ytt=51677046505477&pf=https%3A%2F%2Fcatalog.onliner.by%2Fpromo%2Fback-to-school
+- link "Стирально-сушильная машина LG F2V9GC9W":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2v9gc9w
+  - img "Стирально-сушильная машина LG F2V9GC9W"
+- text: Реклама Onlíner рекомендует
+- link "Обзор":
+  - /url: https://realt.onliner.by/2021/05/17/stiralno-sushilnye-mashiny
+- link "от 2379,21 р.":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2v9gc9w/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 87,34 р./мес.
+- link "7 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2v9gc9w/prices
+- link "Стирально-сушильная машина LG F2V9GC9W":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2v9gc9w
+- link "4,6 (14)":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2v9gc9w/reviews
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=f2v9gc9w
+- text: "отдельностоящая стирально-сушильная машина сушка: естественная конденсация с паром загрузка до 8.5 кг отжим 1200 об/мин глубина 47.5 см (с люком 53.5 см) энергопотребление A прямой привод 14 программ"
+- link "Стиральная машина LG F1296NDS0":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1296nds0
+  - img "Стиральная машина LG F1296NDS0"
+- text: Выбор покупателей
+- link "от 1190,00 р.":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1296nds0/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 43,69 р./мес. По Халве до 5 мес.
+- link "36 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1296nds0/prices
+- link "Стиральная машина LG F1296NDS0":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1296nds0
+- link "4,9 (19)":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1296nds0/reviews
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=f1296nds0
+- text: отдельностоящая стиральная машинка с паром загрузка до 6 кг отжим 1200 об/мин глубина 44 см (с люком 49 см) энергопотребление (new) A прямой привод 13 программ 6 Motion (LG)
+- link "Стиральная машина LG F2M5HS6W":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2m5hs6w
+  - img "Стиральная машина LG F2M5HS6W"
+- text: Выбор покупателей Onlíner рекомендует
+- link "от 1519,00 р.":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2m5hs6w/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 55,76 р./мес.
+- link "8 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2m5hs6w/prices
+- link "Стиральная машина LG F2M5HS6W":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2m5hs6w
+- link "4,9 (26)":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2m5hs6w/reviews
+- link "Обсуждение (4)":
+  - /url: https://forum.onliner.by/viewtopic.php?t=25949936
+- text: отдельностоящая стиральная машинка с паром загрузка до 7 кг отжим 1200 об/мин глубина 45 см (с люком 49.5 см) энергопотребление (new) A прямой привод 14 программ 6 Motion (LG)
+- link "Стиральная машина LG F1096ND3":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1096nd3
+  - img "Стиральная машина LG F1096ND3"
+- text: Выбор покупателей
+- link "от 1215,44 р.":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1096nd3/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 44,62 р./мес. По Халве до 2 мес.
+- link "19 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1096nd3/prices
+- link "Стиральная машина LG F1096ND3":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1096nd3
+- link "4,5 (79)":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1096nd3/reviews
+- link "Обсуждение (14)":
+  - /url: https://forum.onliner.by/viewtopic.php?t=12514070
+- text: отдельностоящая стиральная машинка загрузка до 6 кг отжим 1000 об/мин глубина 44 см (с люком 49 см) энергопотребление A+++ прямой привод 13 программ
+- link:
+  - /url: https://ads.adfox.ru/260941/clickURL?ad-session-id=2110731755722231578&adfox-version=1&hash=5a10d264fc2e06e3&p1=dfjuu&p2=fzvf&p5=bhfxpq&pr=cotmhwg&puid4=washingmachine&rand=equoqot&rqs=4U3C4LIXjmr9MaZojkUJXh2BmgDNvFv6&sj=2_bJcmcQAsBYV8e5tPNjI0Ou1ok13XGh3t5zc4IYwnViShG57lN5ctXNwUCapg%3D%3D&ybv=0.1301598&ylv=0.1301598&ytt=51677046505477&pf=https%3A%2F%2Fcatalog.onliner.by%2Fpromo%2Fback-to-school
+- link "Стирально-сушильная машина LG F2V5HG1W":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2v5hg1w
+  - img "Стирально-сушильная машина LG F2V5HG1W"
+- text: –8%
+- link "от 1922,57 р. 2100,00 р.":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2v5hg1w/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 70,58 р./мес. По Халве до 4 мес.
+- link "28 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2v5hg1w/prices
+- link "Стирально-сушильная машина LG F2V5HG1W":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2v5hg1w
+- link "4,4 (13)":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2v5hg1w/reviews
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=f2v5hg1w
+- text: отдельностоящая стирально-сушильная машина загрузка до 7 кг отжим 1200 об/мин глубина 45 см (с люком 53.5 см) энергопотребление B прямой привод 14 программ AI DD (LG)
+- link "Стиральная машина LG F1296HDS1":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1296hds1
+  - img "Стиральная машина LG F1296HDS1"
+- text: Выбор покупателей
+- link "от 1280,00 р.":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1296hds1/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 46,99 р./мес. По Халве до 4 мес.
+- link "28 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1296hds1/prices
+- link "Стиральная машина LG F1296HDS1":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1296hds1
+- link "4,7 (3)":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1296hds1/reviews
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=f1296hds1
+- text: отдельностоящая стиральная машинка с паром загрузка до 7 кг отжим 1200 об/мин глубина 44 см (с люком 49 см) энергопотребление A+++ прямой привод 13 программ
+- link "Стиральная машина ATLANT СМА 40М105-00":
+  - /url: https://catalog.onliner.by/washingmachine/atlant/sma40m10500
+  - img "Стиральная машина ATLANT СМА 40М105-00"
+- link "от 745,13 р.":
+  - /url: https://catalog.onliner.by/washingmachine/atlant/sma40m10500/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 27,36 р./мес. По Халве до 4 мес. Кредит «На родныя тавары» под 4%
+- link "30 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/atlant/sma40m10500/prices
+- link "Стиральная машина ATLANT СМА 40М105-00":
+  - /url: https://catalog.onliner.by/washingmachine/atlant/sma40m10500
+- link "4,6 (12)":
+  - /url: https://catalog.onliner.by/washingmachine/atlant/sma40m10500/reviews
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=sma40m10500
+- text: отдельностоящая стиральная машинка загрузка до 4 кг отжим 1000 об/мин глубина 33.7 см (с люком 39.2 см) энергопотребление A+ 11 программ
+- link "Стирально-сушильная машина LG W1S1CVKK2HM":
+  - /url: https://catalog.onliner.by/washingmachine/lg/w1s1cvkk2hm
+  - img "Стирально-сушильная машина LG W1S1CVKK2HM"
+- link "от 11 062,48 р.":
+  - /url: https://catalog.onliner.by/washingmachine/lg/w1s1cvkk2hm/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 406,07 р./мес.
+- link "9 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/lg/w1s1cvkk2hm/prices
+- link "Стирально-сушильная машина LG W1S1CVKK2HM":
+  - /url: https://catalog.onliner.by/washingmachine/lg/w1s1cvkk2hm
+- link "Оставьте первый отзыв!":
+  - /url: https://catalog.onliner.by/washingmachine/lg/w1s1cvkk2hm/reviews/create
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=w1s1cvkk2hm
+- text: "отдельностоящая стирально-сушильная машина сушка: конденсация с тепловым насосом с паром загрузка до 18 кг глубина 77 см прямой привод 6 программ"
+- link "Сушильная машина LG DC90V5V0W":
+  - /url: https://catalog.onliner.by/washingmachine/lg/dc90v5v0w
+  - img "Сушильная машина LG DC90V5V0W"
+- link "от 2427,80 р.":
+  - /url: https://catalog.onliner.by/washingmachine/lg/dc90v5v0w/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 89,12 р./мес. По Халве до 4 мес.
+- link "24 предложения":
+  - /url: https://catalog.onliner.by/washingmachine/lg/dc90v5v0w/prices
+- link "Сушильная машина LG DC90V5V0W":
+  - /url: https://catalog.onliner.by/washingmachine/lg/dc90v5v0w
+- link "5 (3)":
+  - /url: https://catalog.onliner.by/washingmachine/lg/dc90v5v0w/reviews
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=dc90v5v0w
+- text: "отдельностоящая сушильная машина сушка: конденсация с тепловым насосом загрузка до 9 кг глубина 61.5 см (с люком 66 см) энергопотребление A++ прямой привод 14 программ"
+- link "Стирально-сушильная машина Viomi Master 2 Pro WD10FT-B6E":
+  - /url: https://catalog.onliner.by/washingmachine/viomi/wd10ftb6e
+  - img "Стирально-сушильная машина Viomi Master 2 Pro WD10FT-B6E"
+- link "от 2499,00 р.":
+  - /url: https://catalog.onliner.by/washingmachine/viomi/wd10ftb6e/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 91,73 р./мес. По Халве до 4 мес.
+- link "15 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/viomi/wd10ftb6e/prices
+- link "Стирально-сушильная машина Viomi Master 2 Pro WD10FT-B6E":
+  - /url: https://catalog.onliner.by/washingmachine/viomi/wd10ftb6e
+- link "4,8 (11)":
+  - /url: https://catalog.onliner.by/washingmachine/viomi/wd10ftb6e/reviews
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=wd10ftb6e
+- text: "отдельностоящая стирально-сушильная машина сушка: естественная конденсация загрузка до 10 кг отжим 1400 об/мин глубина 49 см (с люком 58 см) энергопотребление B 14 программ"
+- link "Сушильная машина BEKO DF7412GA":
+  - /url: https://catalog.onliner.by/washingmachine/beko/df7412ga
+  - img "Сушильная машина BEKO DF7412GA"
+- text: –14%
+- link "от 1576,10 р. 1830,25 р.":
+  - /url: https://catalog.onliner.by/washingmachine/beko/df7412ga/prices
+- text: Minipay кредит от 57,86 р./мес. По Халве до 2 мес.
+- link "3 предложения":
+  - /url: https://catalog.onliner.by/washingmachine/beko/df7412ga/prices
+- link "Сушильная машина BEKO DF7412GA":
+  - /url: https://catalog.onliner.by/washingmachine/beko/df7412ga
+- link "4,9 (24)":
+  - /url: https://catalog.onliner.by/washingmachine/beko/df7412ga/reviews
+- link "Обсуждение (1)":
+  - /url: https://forum.onliner.by/viewtopic.php?t=25751313
+- text: "отдельностоящая сушильная машина сушка: конденсация с тепловым насосом загрузка до 7 кг глубина 46 см (с люком 50.8 см) энергопотребление A+ 15 программ"
+- link "Стиральная машина BEKO WSPE6H616W":
+  - /url: https://catalog.onliner.by/washingmachine/beko/wspe6h616w
+  - img "Стиральная машина BEKO WSPE6H616W"
+- text: Выбор покупателей
+- link "от 872,55 р.":
+  - /url: https://catalog.onliner.by/washingmachine/beko/wspe6h616w/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 32,03 р./мес. По Халве до 2 мес.
+- link "19 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/beko/wspe6h616w/prices
+- link "Стиральная машина BEKO WSPE6H616W":
+  - /url: https://catalog.onliner.by/washingmachine/beko/wspe6h616w
+- link "4,2 (13)":
+  - /url: https://catalog.onliner.by/washingmachine/beko/wspe6h616w/reviews
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=wspe6h616w
+- text: отдельностоящая стиральная машинка с паром загрузка до 6.5 кг отжим 1200 об/мин глубина 42.4 см (с люком 44 см) энергопотребление (new) A 15 программ
+- link "Стиральная машина LG F2Y1NS5W":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2y1ns5w
+  - img "Стиральная машина LG F2Y1NS5W"
+- link "от 1302,99 р.":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2y1ns5w/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 47,83 р./мес. По Халве до 4 мес.
+- link "28 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2y1ns5w/prices
+- link "Стиральная машина LG F2Y1NS5W":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2y1ns5w
+- link "5 (1)":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2y1ns5w/reviews
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=f2y1ns5w
+- text: отдельностоящая стиральная машинка с паром загрузка до 6 кг отжим 1200 об/мин глубина 44 см (с люком 50 см) энергопотребление A прямой привод 10 программ 6 Motion (LG)
+- link "Стиральная машина LG F10B8LD7":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f10b8ld7
+  - img "Стиральная машина LG F10B8LD7"
+- link "от 1099,00 р.":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f10b8ld7/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 40,35 р./мес. По Халве до 4 мес.
+- link "28 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f10b8ld7/prices
+- link "Стиральная машина LG F10B8LD7":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f10b8ld7
+- link "Оставьте первый отзыв!":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f10b8ld7/reviews/create
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=f10b8ld7
+- text: отдельностоящая стиральная машинка загрузка до 5 кг отжим 1000 об/мин глубина 44 см (с люком 49 см) энергопотребление A+++ прямой привод 13 программ
+- link "Стиральная машина Bosch Serie 6 WGG242ZKPL":
+  - /url: https://catalog.onliner.by/washingmachine/bosch/wgg242zkpl
+  - img "Стиральная машина Bosch Serie 6 WGG242ZKPL"
+- text: –27%
+- link "от 2460,00 р. 3350,00 р.":
+  - /url: https://catalog.onliner.by/washingmachine/bosch/wgg242zkpl/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 90,30 р./мес. По Халве до 6 мес.
+- link "20 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/bosch/wgg242zkpl/prices
+- link "Стиральная машина Bosch Serie 6 WGG242ZKPL":
+  - /url: https://catalog.onliner.by/washingmachine/bosch/wgg242zkpl
+- link "Оставьте первый отзыв!":
+  - /url: https://catalog.onliner.by/washingmachine/bosch/wgg242zkpl/reviews/create
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=wgg242zkpl
+- text: отдельностоящая стиральная машинка загрузка до 9 кг отжим 1200 об/мин глубина 58.8 см (с люком 63.2 см) 14 программ
+- link "Стиральная машина Indesit EWSB 5085 BK CIS":
+  - /url: https://catalog.onliner.by/washingmachine/indesit/ewsb5085bkcis
+  - img "Стиральная машина Indesit EWSB 5085 BK CIS"
+- link "от 734,77 р.":
+  - /url: https://catalog.onliner.by/washingmachine/indesit/ewsb5085bkcis/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 26,98 р./мес. По Халве до 2 мес.
+- link "23 предложения":
+  - /url: https://catalog.onliner.by/washingmachine/indesit/ewsb5085bkcis/prices
+- link "Стиральная машина Indesit EWSB 5085 BK CIS":
+  - /url: https://catalog.onliner.by/washingmachine/indesit/ewsb5085bkcis
+- link "5 (2)":
+  - /url: https://catalog.onliner.by/washingmachine/indesit/ewsb5085bkcis/reviews
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=ewsb5085bkcis
+- text: отдельностоящая стиральная машинка загрузка до 5 кг отжим 800 об/мин глубина 42 см энергопотребление A 16 программ
+- link "Сушильная машина Samsung DV90T5240AT/LP":
+  - /url: https://catalog.onliner.by/washingmachine/samsung/dv90t5240atlp
+  - img "Сушильная машина Samsung DV90T5240AT/LP"
+- link "от 2599,00 р.":
+  - /url: https://catalog.onliner.by/washingmachine/samsung/dv90t5240atlp/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 95,41 р./мес. По Халве до 5 мес.
+- link "31 предложение":
+  - /url: https://catalog.onliner.by/washingmachine/samsung/dv90t5240atlp/prices
+- link "Сушильная машина Samsung DV90T5240AT/LP":
+  - /url: https://catalog.onliner.by/washingmachine/samsung/dv90t5240atlp
+- link "5 (10)":
+  - /url: https://catalog.onliner.by/washingmachine/samsung/dv90t5240atlp/reviews
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=dv90t5240atlp
+- text: "отдельностоящая сушильная машина сушка: конденсация с тепловым насосом загрузка до 9 кг глубина 60 см (с люком 65 см) энергопотребление A+++ AI Control (Samsung) Дополнительный люк AddWash (Samsung)"
+- link "Стирально-сушильная машина LG F1496ADS3":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1496ads3
+  - img "Стирально-сушильная машина LG F1496ADS3"
+- link "от 1836,49 р.":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1496ads3/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 67,42 р./мес. По Халве до 5 мес.
+- link "29 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1496ads3/prices
+- link "Стирально-сушильная машина LG F1496ADS3":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1496ads3
+- link "4,8 (12)":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1496ads3/reviews
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=f1496ads3
+- text: "отдельностоящая стирально-сушильная машина сушка: естественная конденсация с паром загрузка до 8 кг отжим 1400 об/мин глубина 55 см (с люком 60 см) энергопотребление B прямой привод 10 программ"
+- link "Стиральная машина Samsung WW70AG6S23ATLP":
+  - /url: https://catalog.onliner.by/washingmachine/samsung/ww70ag6s23atlp
+  - img "Стиральная машина Samsung WW70AG6S23ATLP"
+- link "от 1641,83 р.":
+  - /url: https://catalog.onliner.by/washingmachine/samsung/ww70ag6s23atlp/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 60,27 р./мес. По Халве до 4 мес.
+- link "26 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/samsung/ww70ag6s23atlp/prices
+- link "Стиральная машина Samsung WW70AG6S23ATLP":
+  - /url: https://catalog.onliner.by/washingmachine/samsung/ww70ag6s23atlp
+- link "5 (3)":
+  - /url: https://catalog.onliner.by/washingmachine/samsung/ww70ag6s23atlp/reviews
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=ww70ag6s23atlp
+- text: отдельностоящая стиральная машинка с паром загрузка до 7 кг отжим 1200 об/мин глубина 45 см (с люком 52.5 см) энергопотребление A+++ 22 программы AI Control (Samsung)/AI EcoBubble (Samsung)
+- link "Стиральная машина Haier HW65-BP129302B":
+  - /url: https://catalog.onliner.by/washingmachine/haier/hw65bp129302b
+  - img "Стиральная машина Haier HW65-BP129302B"
+- link "от 1390,00 р.":
+  - /url: https://catalog.onliner.by/washingmachine/haier/hw65bp129302b/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 51,03 р./мес. По Халве до 2 мес.
+- link "12 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/haier/hw65bp129302b/prices
+- link "Стиральная машина Haier HW65-BP129302B":
+  - /url: https://catalog.onliner.by/washingmachine/haier/hw65bp129302b
+- link "5 (3)":
+  - /url: https://catalog.onliner.by/washingmachine/haier/hw65bp129302b/reviews
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=hw65bp129302b
+- text: отдельностоящая стиральная машинка с паром загрузка до 6.5 кг отжим 1200 об/мин глубина 37.3 см энергопотребление A+++ 15 программ
+- link "Стиральная машина LG F1296NDS1":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1296nds1
+  - img "Стиральная машина LG F1296NDS1"
+- text: –32%
+- link "от 2219,22 р. 3272,88 р.":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1296nds1/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 81,47 р./мес. По Халве до 4 мес.
+- link "2 предложения":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1296nds1/prices
+- link "Стиральная машина LG F1296NDS1":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1296nds1
+- link "4,9 (19)":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f1296nds1/reviews
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=f1296nds1
+- text: отдельностоящая стиральная машинка с паром загрузка до 6 кг отжим 1200 об/мин глубина 44 см (с люком 49 см) энергопотребление A+++ прямой привод 13 программ
+- link "Стирально-сушильная машина Candy CSW4 365D/2-07":
+  - /url: https://catalog.onliner.by/washingmachine/candy/csw4365d207
+  - img "Стирально-сушильная машина Candy CSW4 365D/2-07"
+- text: –11%
+- link "от 1059,00 р. 1186,87 р.":
+  - /url: https://catalog.onliner.by/washingmachine/candy/csw4365d207/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 40,57 р./мес. По Халве до 2 мес.
+- link "14 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/candy/csw4365d207/prices
+- link "Стирально-сушильная машина Candy CSW4 365D/2-07":
+  - /url: https://catalog.onliner.by/washingmachine/candy/csw4365d207
+- link "4,7 (22)":
+  - /url: https://catalog.onliner.by/washingmachine/candy/csw4365d207/reviews
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=csw4365d207
+- text: "отдельностоящая стирально-сушильная машина сушка: естественная конденсация загрузка до 6 кг отжим 1300 об/мин глубина 44 см энергопотребление B 14 программ"
+- link "Стирально-сушильная машина Hyundai Nova WMD9425":
+  - /url: https://catalog.onliner.by/washingmachine/hyundai/wmd9425
+  - img "Стирально-сушильная машина Hyundai Nova WMD9425"
+- link "от 4958,00 р.":
+  - /url: https://catalog.onliner.by/washingmachine/hyundai/wmd9425/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 182,00 р./мес. По Халве до 4 мес.
+- link "15 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/hyundai/wmd9425/prices
+- link "4490,00 р. (1 объявление)":
+  - /url: https://catalog.onliner.by/washingmachine/hyundai/wmd9425/used
+- link "Стирально-сушильная машина Hyundai Nova WMD9425":
+  - /url: https://catalog.onliner.by/washingmachine/hyundai/wmd9425
+- link "Оставьте первый отзыв!":
+  - /url: https://catalog.onliner.by/washingmachine/hyundai/wmd9425/reviews/create
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=wmd9425
+- text: "отдельностоящая стирально-сушильная машина сушка: естественная конденсация загрузка до 15 кг отжим 1400 об/мин глубина 60 см энергопотребление A прямой привод 18 программ"
+- link "Стиральная машина ATLANT СМА 40М102-00":
+  - /url: https://catalog.onliner.by/washingmachine/atlant/atlant40m102
+  - img "Стиральная машина ATLANT СМА 40М102-00"
+- link "от 745,00 р.":
+  - /url: https://catalog.onliner.by/washingmachine/atlant/atlant40m102/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 27,35 р./мес. По Халве до 4 мес. Кредит «На родныя тавары» под 4%
+- link "27 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/atlant/atlant40m102/prices
+- link "Стиральная машина ATLANT СМА 40М102-00":
+  - /url: https://catalog.onliner.by/washingmachine/atlant/atlant40m102
+- link "4,3 (27)":
+  - /url: https://catalog.onliner.by/washingmachine/atlant/atlant40m102/reviews
+- link "Обсуждение (4)":
+  - /url: https://forum.onliner.by/viewtopic.php?t=20778752
+- text: отдельностоящая стиральная машинка загрузка до 4 кг отжим 1000 об/мин глубина 32.8 см (с люком 39.8 см) энергопотребление A+ 15 программ
+- link "Стиральная машина ATLANT СМА 70С105-00":
+  - /url: https://catalog.onliner.by/washingmachine/atlant/sma70s10500
+  - img "Стиральная машина ATLANT СМА 70С105-00"
+- link "от 880,00 р.":
+  - /url: https://catalog.onliner.by/washingmachine/atlant/sma70s10500/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 32,31 р./мес. По Халве до 4 мес. Кредит «На родныя тавары» под 4%
+- link "33 предложения":
+  - /url: https://catalog.onliner.by/washingmachine/atlant/sma70s10500/prices
+- link "Стиральная машина ATLANT СМА 70С105-00":
+  - /url: https://catalog.onliner.by/washingmachine/atlant/sma70s10500
+- link "4,7 (3)":
+  - /url: https://catalog.onliner.by/washingmachine/atlant/sma70s10500/reviews
+- link "Обсуждение (1)":
+  - /url: https://forum.onliner.by/viewtopic.php?t=22538079
+- text: отдельностоящая стиральная машинка загрузка до 7 кг отжим 1000 об/мин глубина 48.2 см (с люком 55 см) энергопотребление A+++ 11 программ
+- link "Стиральная машина LG F2Y1NS6J":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2y1ns6j
+  - img "Стиральная машина LG F2Y1NS6J"
+- link "от 1298,98 р.":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2y1ns6j/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 47,69 р./мес. По Халве до 4 мес.
+- link "26 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2y1ns6j/prices
+- link "Стиральная машина LG F2Y1NS6J":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2y1ns6j
+- link "Оставьте первый отзыв!":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f2y1ns6j/reviews/create
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=f2y1ns6j
+- text: отдельностоящая стиральная машинка загрузка до 6 кг отжим 1200 об/мин глубина 44 см (с люком 50 см) энергопотребление (new) A прямой привод 10 программ 6 Motion (LG)
+- link "Стирально-сушильная машина LG F4V5VG2S":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f4v5vg2s
+  - img "Стирально-сушильная машина LG F4V5VG2S"
+- link "от 2505,12 р.":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f4v5vg2s/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 91,96 р./мес. По Халве до 4 мес.
+- link "28 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f4v5vg2s/prices
+- link "Стирально-сушильная машина LG F4V5VG2S":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f4v5vg2s
+- link "4,5 (2)":
+  - /url: https://catalog.onliner.by/washingmachine/lg/f4v5vg2s/reviews
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=f4v5vg2s
+- text: отдельностоящая стирально-сушильная машина с паром загрузка до 9 кг отжим 1400 об/мин глубина 56.5 см (с люком 62 см) энергопотребление A прямой привод 14 программ 6 Motion (LG)
+- link "Стиральная машина Haier HW60-BP12919B":
+  - /url: https://catalog.onliner.by/washingmachine/haier/hw60bp12919b
+  - img "Стиральная машина Haier HW60-BP12919B"
+- link "от 1069,00 р.":
+  - /url: https://catalog.onliner.by/washingmachine/haier/hw60bp12919b/prices
+- text: Вернем до 5% на «Клевер» Minipay кредит от 39,24 р./мес. По Халве до 2 мес.
+- link "13 предложений":
+  - /url: https://catalog.onliner.by/washingmachine/haier/hw60bp12919b/prices
+- link "Стиральная машина Haier HW60-BP12919B":
+  - /url: https://catalog.onliner.by/washingmachine/haier/hw60bp12919b
+- link "Оставьте первый отзыв!":
+  - /url: https://catalog.onliner.by/washingmachine/haier/hw60bp12919b/reviews/create
+- link "Начните обсуждение!":
+  - /url: https://forum.onliner.by/posting.php?mode=newtopic&f=150&device=hw60bp12919b
+- text: отдельностоящая стиральная машинка с паром загрузка до 6 кг отжим 1200 об/мин глубина 38.6 см энергопотребление A+++ 10 программ Следующие 30 товаров 1
+- link "0 товаров в сравнении":
+  - /url: https://catalog.onliner.by/compare/
+- text: Очистить список сравнения
+- contentinfo:
+  - list:
+    - listitem:
+      - link "О компании":
+        - /url: https://blog.onliner.by/about
+    - listitem:
+      - link "Контакты редакции":
+        - /url: https://people.onliner.by/contacts
+    - listitem:
+      - link "Реклама":
+        - /url: https://b2breg.onliner.by/advertising
+    - listitem:
+      - link "Тарифы":
+        - /url: https://docs.google.com/spreadsheets/d/1SGFaTkV_Ru4vI29ml9yvR-dMz9rOl7DVVpKk64w5lqM/preview
+    - listitem:
+      - link "Вакансии":
+        - /url: https://blog.onliner.by/vacancy
+    - listitem:
+      - link "Манифест":
+        - /url: https://blog.onliner.by/manifest
+    - listitem:
+      - link "Пользовательское соглашение":
+        - /url: https://blog.onliner.by/siterules
+    - listitem:
+      - link "Публичные договоры":
+        - /url: https://blog.onliner.by/publichnye-dogovory
+    - listitem:
+      - link "Политика обработки персональных данных":
+        - /url: https://blog.onliner.by/politika-konfidencialnosti
+    - listitem:
+      - link "Поддержка пользователей":
+        - /url: https://support.onliner.by
+    - listitem:
+      - link "Информация для покупателей":
+        - /url: https://blog.onliner.by/informaciya-dlya-pokupatelya
+    - listitem: Настройка cookie
+  - link:
+    - /url: https://t.me/+pa0qPrPfhJRmNmUy
+  - link:
+    - /url: https://www.instagram.com/onlinerby
+  - link:
+    - /url: https://vk.com/onliner
+  - link:
+    - /url: https://www.tiktok.com/@onlinereasy
+  - link:
+    - /url: https://www.threads.com/@onlinerby/post/CuV4cMZIOVq?xmt=AQF0snhF3SR3NnEmU-lD9P9ZYnoHfmoFEri491nU8dSc5g
+  - img
+  - text: © 2001—2025 Onlíner
+- text: Мы используем cookie, чтобы сделать сайт удобнее Мы обрабатываем cookie, чтобы ваш веб-серфинг шел как по маслу, а скидки и рекомендации для вас были точно в яблочко! Хотите адаптировать настройки под себя? Настроить Cookies Отклонить Принять все cookie Ознакомиться со
+- link "списком cookie-файлов":
+  - /url: https://content.onliner.by/legal/cookie-list.pdf
+- text: и
+- link "Политикой в отношении обработки cookie-файлов":
+  - /url: https://content.onliner.by/legal/cookie-policy.pdf
+- iframe
+```
