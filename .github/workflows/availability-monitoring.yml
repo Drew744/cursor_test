@@ -55,10 +55,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     
-    # Запуск только при ручном запуске или каждые 6 часов
+    # Запуск только при ручном запуске или каждые 6 часов  
     if: |
-      github.event_name == 'workflow_dispatch' || 
-      github.event.schedule == '0 */6 * * *'
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'schedule' && contains(github.event.schedule, '*/6'))
     
     steps:
     - name: Checkout code
