@@ -1,0 +1,135 @@
+name: Site Availability Monitoring
+on:
+  # Запуск каждые 2 часа
+  schedule:
+    - cron: '0 */2 * * *'
+  
+  # Ручной запуск
+  workflow_dispatch:
+    inputs:
+      check_type:
+        description: 'Тип проверки'
+        required: false
+        default: 'basic'
+        type: choice
+        options:
+        - basic
+        - full
+        - critical
+
+jobs:
+  basic-availability:
+    name: Basic Site Check
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: lts/*
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Install Playwright Browsers
+      run: npx playwright install --with-deps chromium
+      
+    - name: Check basic availability
+      run: npx playwright test --grep "onliner.by доступен" --project=chromium --reporter=line
+      
+    - name: Upload basic check results
+      uses: actions/upload-artifact@v4
+      if: ${{ !cancelled() }}
+      with:
+        name: basic-availability-${{ github.run_id }}
+        path: playwright-report/
+        retention-days: 7
+
+  critical-path:
+    name: Critical Path Test
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    # Запуск только при ручном запуске или каждые 6 часов
+    if: |
+      github.event_name == 'workflow_dispatch' || 
+      github.event.schedule == '0 */6 * * *'
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: lts/*
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Install Playwright Browsers
+      run: npx playwright install --with-deps chromium
+      
+    - name: Run critical path tests
+      run: |
+        if [ "${{ github.event.inputs.check_type }}" = "full" ]; then
+          npx playwright test --grep "навигация по каталогу" --project=chromium --reporter=line
+        else
+          npx playwright test --grep "onliner.by доступен" --project=chromium --reporter=line
+        fi
+      
+    - name: Upload critical path results
+      uses: actions/upload-artifact@v4
+      if: ${{ !cancelled() }}
+      with:
+        name: critical-path-${{ github.run_id }}
+        path: |
+          playwright-report/
+          test-results/
+        retention-days: 14
+
+  notification:
+    name: Send Notification
+    runs-on: ubuntu-latest
+    needs: [basic-availability, critical-path]
+    if: always()
+    
+    steps:
+    - name: Check test results
+      id: check_results
+      run: |
+        if [ "${{ needs.basic-availability.result }}" = "failure" ] || [ "${{ needs.critical-path.result }}" = "failure" ]; then
+          echo "status=failure" >> $GITHUB_OUTPUT
+          echo "message=❌ Тесты доступности сайта не прошли" >> $GITHUB_OUTPUT
+        else
+          echo "status=success" >> $GITHUB_OUTPUT
+          echo "message=✅ Все проверки доступности прошли успешно" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: Comment on commit
+      if: github.event_name == 'push'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const message = `${{ steps.check_results.outputs.message }}
+          
+          🔍 **Детали проверки:**
+          - Basic Availability: ${{ needs.basic-availability.result }}
+          - Critical Path: ${{ needs.critical-path.result }}
+          
+          📊 **Отчет:** [Playwright Report](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
+          
+          ⏰ **Время проверки:** ${{ github.event.schedule || 'Manual' }}`;
+          
+          github.rest.repos.createCommitComment({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            commit_sha: context.sha,
+            body: message
+          });
